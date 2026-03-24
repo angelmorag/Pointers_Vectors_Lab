@@ -1,3 +1,13 @@
+/*
+ *Name: Angel Mora Gutierrez
+ *Date: March 23, 2026
+ *Assignment: Pointers & RAII
+ *Purpose: This program demonstrates RAII by utilizing an Inventory class to manage a collection
+ *of dynamically allocated Book objects. The program ensures no memory leaks occur by handling all
+ *'delete' operations within the Inventory destructor
+ */
+
+
 #include <iostream>
 #include <string>
 #include "Inventory.h"
